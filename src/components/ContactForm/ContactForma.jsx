@@ -22,7 +22,7 @@
 
 //   const handleSubmit = (values, { resetForm }) => {
 //     const newContact = {
-//       id: Math.random().toString(36).substr(2, 9),
+//       id: Math.random().toString(36).slice(2, 11)
 //       name: values.name,
 //       number: values.number,
 //     };
@@ -30,52 +30,35 @@
 //     resetForm();
 //   };
 
-//     return (
-//       <Form className={s.ContactForm}>
-//         <label className={s.ContactLabel}>
-//           <span className={s.ContactSpanTitle}>Name</span>
-//           <Field className={s.ContactFormInput} type="name" name="name" />
-//           <ErrorMessage component="p" name="name" />
-//         </label>
-//         <label className={s.ContactLabel}>
-//           <span className={s.ContactSpanTitle}>Number</span>
-//           <Field
-//             name="number"
-//             className={`${s.ContactFormInput} ${s.NumberFormInput}`}
-//             component={PhoneNumberInput}
-//           />
-//           <ErrorMessage
-//             className={s.ContactSpanTitle}
-//             component="p"
-//             name="number"
-//           />
-//         </label>
-//         <button className={s.ContactButton} type="submit">
-//           Add contact
-//         </button>
-//       </Form>
+//   return (
+//     <Formik
+//       initialValues={initialValues}
+//       validationSchema={validationSchema}
+//       onSubmit={handleSubmit}
+//     >
+// <Form className={css.ContactForm}>
+//               <label className={}
+//                   htmlFor="name">
+//     <span className={}>Name:</span>
+//                   <Field className={}
+//                       type="text" id="name" name="name" />
+//                   <ErrorMessage className={}
+//                       name="name" component="div" />
+//   </label>
+//               <label className={}
+//                   htmlFor="number">
+//     <span className={}>Number:</span>
+//                   <Field className={ }
+//                       type="text" id="number" name="number" />
+//                   <ErrorMessage
+//                       className={ } name="number" component="div" />
+//   </label>
+//   <button className={css.ContactBtn} type="submit">
+//     Add contact
+//   </button>
+// </Form>
+
 //     </Formik>
-//     // <Formik
-//     //   initialValues={initialValues}
-//     //   validationSchema={validationSchema}
-//     //   onSubmit={handleSubmit}
-//     // >
-//     //   <Form className={css.ContactForm}>
-//     //     <div>
-//     //       <label htmlFor="name">Name:</label>
-//     //       <Field type="text" id="name" name="name" />
-//     //       <ErrorMessage name="name" component="div" />
-//     //     </div>
-//     //     <div>
-//     //       <label htmlFor="number">Number:</label>
-//     //       <Field type="text" id="number" name="number" />
-//     //       <ErrorMessage name="number" component="div" />
-//     //     </div>
-//     //     <button className={css.ContactBtn} type="submit">
-//     //       Add contact
-//     //     </button>
-//     //   </Form>
-//     // </Formik>
 //   );
 // };
 

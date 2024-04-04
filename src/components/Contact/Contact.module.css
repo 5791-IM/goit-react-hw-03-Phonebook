@@ -1,0 +1,33 @@
+.ContactItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(166, 163, 168);
+  border: 3px solid #513939;
+  border-radius: 8px;
+  width: 300px;
+  height: 80px;
+}
+
+.ContactName {
+  font-weight: bold;
+  color: #664c4c;
+}
+
+.ContactNumber {
+  color: #9d6565;
+}
+
+.ContactItemBtn {
+  background-color: #a26a6a;
+  color: #513939;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ContactItemBtn:hover {
+  background-color: #c28e8e;
+}
