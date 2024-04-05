@@ -3,48 +3,45 @@
   margin: 0 auto;
 }
 
-.ContactLabel {
+.ContactFormLabel {
   display: block;
   margin-bottom: 15px;
 }
 
-.ContactSpanTitle {
+.ContactFormSpan {
   display: block;
   margin-bottom: 5px;
   font-weight: bold;
 }
 
-.ContactFormInput {
+.ContactFormField {
   width: 100%;
   padding: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: 3px solid #513939;
   border-radius: 5px;
+  background-color: rgb(166, 163, 168);
   box-sizing: border-box;
 }
 
-.NumberFormInput {
-  padding-left: 50px;
-}
-
-.ContactButton {
+.ContactFormBtn {
   display: block;
   width: 100%;
   padding: 10px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
+  background-color: #a26a6a;
+  color: #513939;
+  border: 3px solid #513939;
   border-radius: 5px;
   font-size: 16px;
   cursor: pointer;
 }
 
-.ContactButton:hover {
-  background-color: #0056b3;
+.ContactFormBtn:hover {
+  background-color: #c28e8e;
 }
 
 .ErrorMessage {
-  color: red;
+  color: #9d6565;
   font-size: 14px;
   margin-top: 5px;
 }

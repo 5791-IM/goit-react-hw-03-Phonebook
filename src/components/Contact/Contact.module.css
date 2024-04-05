@@ -8,6 +8,7 @@
   border-radius: 8px;
   width: 300px;
   height: 80px;
+  margin-bottom: 20px;
 }
 
 .ContactName {
@@ -22,7 +23,7 @@
 .ContactItemBtn {
   background-color: #a26a6a;
   color: #513939;
-  border: none;
+  border: 1px solid #513939;
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;

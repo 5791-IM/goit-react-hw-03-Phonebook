@@ -65,7 +65,7 @@ const ContactForm = ({ onAddContact }) => {
             component="div"
           />
         </label>
-        <button className={css.ContactBtn} type="submit">
+        <button className={css.ContactFormBtn} type="submit">
           Add contact
         </button>
       </Form>
